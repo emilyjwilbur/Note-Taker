@@ -8,7 +8,7 @@ const path = require('path');
 
 // routes
 
-app.get("/notes", function(req, res) {
+app.get('/notes', function(req, res) {
     res.json(path.join(__dirname, "public/notes.html"));
   });
 
