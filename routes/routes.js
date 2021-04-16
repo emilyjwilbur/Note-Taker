@@ -28,7 +28,10 @@ app.post("/api/notes", function(req, res) {
         }
     });
     return console.log("New note added: "+newNote.title);
+   
 });
+res.json(newNote);
+
 
 
 app.get('/notes', (req, res) => res.redirect('notes.html'));
