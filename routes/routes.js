@@ -30,7 +30,7 @@ app.post("/api/notes", function(req, res) {
     return console.log("New note added: "+newNote.title);
    
 });
-res.json(newNote);
+
 
 
 
