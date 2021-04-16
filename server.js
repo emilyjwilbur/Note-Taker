@@ -10,6 +10,8 @@ const PORT = process.env.PORT || 3000;
 
 // setting up express app to handle data parsing
 
+app.use(express.static('public'));
+
 app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
 
@@ -17,7 +19,7 @@ app.use(express.json());
 // routes file required
 require('./routes/routes')(app);
 
-
+// listen
 // listener
 
 app.listen(PORT, function() {

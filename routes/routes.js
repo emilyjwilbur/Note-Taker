@@ -6,7 +6,6 @@ let notes = [];
 module.exports = app => {
 
 
-
 // html routes, api routes
 
 app.get('/notes', (req, res) => res.redirect('notes.html'));
