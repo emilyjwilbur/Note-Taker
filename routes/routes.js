@@ -16,6 +16,8 @@ app.get('/api/notes', (req,res) => res.json(notes));
 
 
 
+
+
 app.post("/api/notes", function(req, res) {
     let newNote = req.body;
     notes.push(newNote);
@@ -31,20 +33,18 @@ app.post("/api/notes", function(req, res) {
    
 });
 
+app.delete("/api/notes/:id", function(req, res) {
+    notes.splice(req.params.id, 1);
+
+    console.log("deleted note with id "+req.params.id);
+});
+
 
 
 
 app.get('/notes', (req, res) => res.redirect('notes.html'));
 
 app.get('*', (req, res) => res.sendFile(path.join(__dirname, '../public/index.html')));
-
-
-
-
-
-
-
-
 
 
 
