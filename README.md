@@ -29,7 +29,7 @@ Clone the repository
 git clone https://github.com/emilyjwilbur/Note-Taker.git
 ```
 Navigate to terminal and make you're in the folder and use command prompt.
-Run ```npm install``` to install dependencies. To use app locally, run ```node server.js``` and open ```http://localhost:3000``` in browser. The Note Taker app is deployed live on Heroku at https://agile-badlands-06215.herokuapp.com/notes.html
+Run ```npm install``` to install dependencies. To use app locally, run ```node server.js``` and open ```http://localhost:3000``` in browser. The Note Taker app is deployed live on Heroku at https://agile-badlands-06215.herokuapp.com/
 
 
 ## Preview with screenshots:
