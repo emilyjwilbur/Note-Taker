@@ -10,7 +10,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ## Description:
 
-This is a note taking application that allows the user to save and delete notes, with a note title and text to write content underneath. It's powered by ExpressJS.
+This is a note taking application that allows the user to save and delete notes, with a note title and text to write content underneath. It's powered by Node Package ExpressJS and built with JavaScript and NodeJS
 
 
 
