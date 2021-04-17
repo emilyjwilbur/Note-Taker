@@ -39,7 +39,7 @@ Run ```npm install``` to install dependencies. To use app locally, run ```node s
 
 ## Deployed Link:
 
-Heroku: https://agile-badlands-06215.herokuapp.com/notes.html
+Heroku: https://agile-badlands-06215.herokuapp.com/ <br>
 GitHub Repository: https://github.com/emilyjwilbur/Note-Taker
 
 
