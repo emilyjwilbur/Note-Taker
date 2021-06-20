@@ -14,13 +14,6 @@ This is a note taking application that allows the user to save and delete notes,
 
 
 
-## The Process:
-- Referred to the mock to get an understanding of the note taking app and it's functionality
-- Rewatched class videos and referred to some of Star Wars activity in class
-- Referred to documentation
-- Page must be refreshed to see notes that were deleted. Couldn't figure out a fix for that.
-
-
 
 ## Installing:
 Clone the repository 
